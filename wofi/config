@@ -1,0 +1,13 @@
+width=330
+height=430
+show=drun
+prompt=Wofi!
+orientation=vertical
+halign=fill
+content_halign=fill
+allow_markup=true
+no_actions=true
+hide_scroll=true
+gtk_dark=true
+insensitive=false
+allow_images=false
