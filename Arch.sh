@@ -23,7 +23,7 @@ sudo cp -r Mocu-Black-Right /usr/share/icons
 echo " Utils "
 sudo pacman -S wofi swww mako
 sudo pacman -S ttf-jetbrains-mono-nerd ttf-hanazono ttf-baekmuk noto-fonts-emoji
-sudo pacman -S btop bluez bluez-utils blueberry mpv imv nwg-look nwg-displays gnome-text-editor file-roller wine-staging winetricks
+sudo pacman -S btop bluez bluez-utils blueberry mpv imv nwg-look nwg-displays emptty gnome-text-editor file-roller wine-staging winetricks
 sudo pacman -S alacritty nemo firefox telegram-desktop spotify-launcher steam discord
 
 echo " Depencies "
@@ -31,5 +31,5 @@ sudo pacman -S alsa-utils pamixer brightnessctl xdg-user-dirs grim slurp
 git clone https://aur.archlinux.org/yay.git
 cd yay
 makepkg -si
-yay -S light catnap-git spicetify-cli
+yay -S light catnap-git
 sh -c "$(curl -sS https://raw.githubusercontent.com/Vendicated/VencordInstaller/main/install.sh)"
