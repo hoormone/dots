@@ -20,6 +20,12 @@ cd mocu-xcursor
 cd dist
 sudo cp -r Mocu-Black-Right /usr/share/icons
 
+echo " Grub "
+cd grub
+sudo cp -r charm /usr/share/grub/themes
+sudo cp grub /etc/default/grub
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+
 echo " Utils "
 sudo pacman -S wofi swww mako
 sudo pacman -S ttf-jetbrains-mono-nerd ttf-hanazono ttf-baekmuk noto-fonts-emoji
