@@ -19,6 +19,8 @@ cd mocu-xcursor
 ./make.sh
 cd dist
 sudo cp -r Mocu-Black-Right /usr/share/icons
+cd
+cd dots
 
 echo " Grub "
 cd grub
