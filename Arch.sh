@@ -22,8 +22,9 @@ sudo cp -r Mocu-Black-Right /usr/share/icons
 
 echo " Grub "
 cd grub
-sudo cp -r charm /usr/share/grub/themes
 sudo cp grub /etc/default/grub
+sudo cp cascadia-mono.pf2 /boot/grub/
+sudo cp -r charm /usr/share/grub/themes
 sudo grub-mkconfig -o /boot/grub/grub.cfg
 
 echo " Utils "
