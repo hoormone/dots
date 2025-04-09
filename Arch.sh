@@ -6,11 +6,13 @@ echo " Themes "
 git clone https://github.com/vinceliuice/Lavanda-gtk-theme.git
 cd Lavanda-gtk-theme
 ./install.sh -t sea -c dark -l
+cd -
 
 echo " Icons "
 git clone https://github.com/daniruiz/flat-remix.git
 cd flat-remix
 sudo make install
+cd -
 
 echo " Cursors "
 sudo pacman -S xorg-xcursorgen xmlstarlet librsvg
@@ -19,8 +21,7 @@ cd mocu-xcursor
 ./make.sh
 cd dist
 sudo cp -r Mocu-Black-Right /usr/share/icons
-cd
-cd dots
+cd --
 
 echo " Grub "
 cd grub
@@ -28,6 +29,7 @@ sudo cp grub /etc/default/grub
 sudo cp cascadia-mono.pf2 /boot/grub/
 sudo cp -r charm /usr/share/grub/themes
 sudo grub-mkconfig -o /boot/grub/grub.cfg
+cd -
 
 echo " Utils "
 sudo pacman -S wofi swww mako
