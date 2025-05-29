@@ -34,7 +34,7 @@ cd -
 echo " Utils "
 sudo pacman -S wofi swww mako
 sudo pacman -S ttf-jetbrains-mono-nerd ttf-hanazono ttf-baekmuk noto-fonts-emoji
-sudo pacman -S btop bluez bluez-utils blueberry mpv imv nwg-look nwg-displays emptty gnome-text-editor file-roller wine-staging winetricks
+sudo pacman -S btop bluez bluez-utils blueberry mpv imv nwg-look nwg-displays gnome-text-editor file-roller wine-staging winetricks
 sudo pacman -S alacritty nemo firefox telegram-desktop spotify-launcher steam discord
 
 echo " Depencies "
