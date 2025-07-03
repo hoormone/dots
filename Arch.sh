@@ -11,7 +11,7 @@ cd -
 echo " Icons "
 git clone https://github.com/bikass/kora.git
 cd kora
-sudo cp -r kora kora-pgrey /usr/share/icons/
+sudo cp -r kora kora-pgrey kora-light kora-light-panel /usr/share/icons/
 cd -
 
 echo " Cursors "
