@@ -9,9 +9,9 @@ cd Lavanda-gtk-theme
 cd -
 
 echo " Icons "
-git clone https://github.com/daniruiz/flat-remix.git
-cd flat-remix
-sudo make install
+git clone https://github.com/bikass/kora.git
+cd kora
+sudo cp -r kora kora-pgrey /usr/share/icons/
 cd -
 
 echo " Cursors "
