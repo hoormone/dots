@@ -37,7 +37,7 @@ sudo pacman -S btop bluez bluez-utils loupe showtime decibels gnome-text-editor 
 sudo pacman -S alacritty nemo firefox telegram-desktop discord spotify-launcher steam
 
 echo " Depencies "
-sudo pacman -S alsa-utils pamixer brightnessctl xdg-user-dirs grim slurp
+sudo pacman -S alsa-utils xdg-user-dirs gst-libav gnome-browser-connector
 git clone https://aur.archlinux.org/yay.git
 cd yay
 makepkg -si
