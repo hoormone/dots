@@ -1,6 +1,6 @@
 #!/bin/bash
-echo " Hyprland "
-sudo pacman -Sy hyprland
+echo " Gnome "
+sudo pacman -Sy gnome-shell
 
 echo " Themes "
 git clone https://github.com/vinceliuice/Lavanda-gtk-theme.git
