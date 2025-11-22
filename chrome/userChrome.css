@@ -15,12 +15,6 @@
   /* display: none !important; /* uncomment this line to hide the menu button */
 }
 
-/* Window control buttons (min, resize and close) */
-.titlebar-buttonbox-container {
-  display: none !important;
-  margin-right: 12px !important;
-}
-
 /* Extension name inside URL bar */
 #identity-box.extensionPage #identity-icon-label {
   visibility: collapse !important
