@@ -41,5 +41,4 @@ sudo pacman -S alsa-utils base-devel xdg-user-dirs gst-libav gnome-browser-conne
 git clone https://aur.archlinux.org/yay.git
 cd yay
 makepkg -si
-yay -S gdm-settings
 sh -c "$(curl -sS https://raw.githubusercontent.com/Vendicated/VencordInstaller/main/install.sh)"
