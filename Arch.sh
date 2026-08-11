@@ -15,7 +15,7 @@ sudo cp -r kora kora-pgrey /usr/share/icons/
 cd -
 
 echo " Cursors "
-sudo pacman -S xorg-xcursorgen xmlstarlet librsvg
+sudo pacman -S xorg-xcursorgen xmlstarlet
 git clone https://github.com/sevmeyer/mocu-xcursor.git
 cd mocu-xcursor
 ./make.sh
@@ -33,12 +33,8 @@ cd -
 
 echo " Utils "
 sudo pacman -S ttf-jetbrains-mono-nerd ttf-jigmo ttf-baekmuk noto-fonts-emoji
-sudo pacman -S btop bluez bluez-utils loupe showtime decibels gnome-text-editor file-roller wine winetricks
+sudo pacman -S btop loupe showtime decibels gnome-text-editor file-roller wine winetricks
 sudo pacman -S alacritty nemo firefox telegram-desktop discord spotify-launcher steam
 
 echo " Depencies "
 sudo pacman -S alsa-utils base-devel xdg-user-dirs gst-libav gnome-browser-connector
-git clone https://aur.archlinux.org/yay.git
-cd yay
-makepkg -si
-sh -c "$(curl -sS https://raw.githubusercontent.com/Vendicated/VencordInstaller/main/install.sh)"
