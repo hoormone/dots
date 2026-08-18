@@ -33,7 +33,7 @@ cd -
 
 echo " Utils "
 sudo pacman -S ttf-jetbrains-mono-nerd ttf-jigmo ttf-baekmuk noto-fonts-emoji
-sudo pacman -S btop loupe showtime decibels gnome-text-editor file-roller wine winetricks
+sudo pacman -S btop mangohud loupe showtime decibels gnome-text-editor file-roller wine winetricks
 sudo pacman -S alacritty nemo firefox telegram-desktop discord spotify-launcher steam
 
 echo " Depencies "
