@@ -1,6 +1,6 @@
 #!/bin/bash
 echo " Gnome "
-sudo pacman -Sy gnome-shell gnome-tweaks gnome-control-center gdm
+sudo pacman -Sy gnome-shell gnome-tweaks gnome-extensions-app gnome-control-center gdm
 
 echo " Themes "
 git clone https://github.com/vinceliuice/Lavanda-gtk-theme.git
